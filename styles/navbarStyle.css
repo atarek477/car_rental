@@ -1,0 +1,60 @@
+nav {
+  background-color: #009579;
+  width: 100%;
+}
+
+nav h1 {
+  margin-left: 20px;
+  color: white;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#links {
+  margin: 0;
+  margin-left: auto;
+}
+
+#links a:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: white;
+  color: #009579;
+}
+
+#links li {
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#links li:hover {
+  background-color: white;
+}
+
+#links li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 110%;
+}
+/*# sourceMappingURL=navbarStyle.css.map */
